@@ -1,0 +1,50 @@
+﻿<configuration>
+  <settings>
+    <parallel>true</parallel>
+    <newWindow>true</newWindow>
+  </settings>
+  <operation id="1" name="ems operation" order="1" createDate="2022-07-26 12:00:00" enabled="true">
+    <step>
+      <id>1</id>
+      <operationId>1</operationId>
+      <name>csv1</name>
+      <order>1</order>
+      <filename>SQLToCSV.exe</filename>
+      <path>..\csv1\</path>
+      <createDate>2022-07-26 12:00:00</createDate>
+      <enabled>true</enabled>
+    </step>
+    <step>
+      <id>2</id>
+      <operationId>1</operationId>
+      <name>csv2</name>
+      <order>2</order>
+      <filename>SQLToCSV.exe</filename>
+      <path>..\csv2\</path>
+      <createDate>2022-07-26 12:00:00</createDate>
+      <enabled>true</enabled>
+    </step>
+  </operation>
+  <operation id="2" name="log operation" order="1" createDate="2022-07-26 12:00:00" enabled="true">
+    <step>
+      <id>3</id>
+      <operationId>2</operationId>
+      <name>csv3</name>
+      <order>1</order>
+      <filename>SQLToCSV.exe</filename>
+      <path>..\csv3\</path>
+      <createDate>2022-07-26 12:00:00</createDate>
+      <enabled>true</enabled>
+    </step>
+    <step>
+      <id>4</id>
+      <operationId>2</operationId>
+      <name>csv1</name>
+      <order>2</order>
+      <filename>SQLToCSV.exe</filename>
+      <path>..\csv1\</path>
+      <createDate>2022-07-26 12:00:00</createDate>
+      <enabled>true</enabled>
+    </step>
+  </operation>
+</configuration>
